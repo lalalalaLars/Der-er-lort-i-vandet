@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #2d4960;
+    background-color: #f5f5ed;
+}
+
+
+.navbar {
+    background: rgba(245, 245, 235, 0.5);
+    height: 3.2rem;
+    
+}
+
+
+
+.nav-item1 {
+    color: #f5f5ed;
+    text-shadow: #2d4960 .01rem .01rem .05rem;
+}
+
+
+
+.logo {
+    height: 2.5rem;
+    margin-left: 1rem;
+}
+
+.video-background {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+.overskrift{
+    
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.Doner {
+    margin-bottom: 3rem;
+}
+
+.Spil {
+    margin-bottom: 3rem;
+}
+
+.textinfo{
+    margin-top: 4rem;
+   ;
+}
+
+@media (max-width: 768px) {
+    .overskrift{
+        font-size: 2rem;
+        
+    }
+    .logo {
+        height: 2rem;
+    margin-left: .2rem;
+    margin-bottom: .2rem;
+    }
+
+
+    
+}
